@@ -1,0 +1,135 @@
+header {
+  background-color: #b7c3e8;
+}
+.page {
+  background-color: #303E69;
+}
+
+.content_page {
+  background-color: #B1EBFF;
+  opacity: 0.6;
+}
+
+.subject_input {
+  width: 1000px;
+  height: 620px;
+  background-image: url(/images/wiki3.jpg);
+  margin-left: auto ;
+  margin-right: auto ;
+  vertical-align: middle;
+  border-style: double;
+  border-color: #3333FF;
+  border-width: 50px;
+}
+
+.picture_box {
+  width: 80%;
+  height: 55%;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+}
+
+.intro_info {
+  border-style: double;
+  border-color: #675EB7;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  width: 700px;
+  height: 340px;
+  text-align: center;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+.topic_info {
+  border-style: double;
+  border-color: #675EB7;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  width: 800px;
+  height: 650px;
+  text-align: center;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+.dropdown {
+  font-size: 100%;
+  border-style: single;
+  border-color: #675EB7;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown_box {
+  font-size: 100%;
+  border-style: single;
+  border-color: #675EB7;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.user-panel {
+  font-size: 100%;
+  border-style: single;
+  border-color: #303E69;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contributor {
+  font-size: 100%;
+  border-style: single;
+  border-color: #675EB7;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro_info_content {
+  border-style: double;
+  border-color: #675EB7;
+  border-width: 10px;
+  background-color: #B1EBFF;
+  width: 1000px;
+  height: 75px;
+  text-align: center;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+.post-content {
+  background-color: #fdfeff;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+ .form-submission {
+    padding: 0;
+  }
+
+  .form-submission input[type="submit"] {
+    margin-top: 0.5em;
+    width: 98%;
+  }
+
+  .bottom-border {
+  border-bottom: 1px solid black;
+}

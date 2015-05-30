@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Steve's Mini Wiki</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class = "page"> 
+    <div class = "subject_input">   
+      <div class = "intro_info">
+          <h2>Hi! This is Steve's mini wiki on the awesome stuff I've learned at Udacity!!</h2>
+          <p>I've included many nuggets of wisdom I've learned. Feel free to add your own! </p>
+          <p>To get started pick your subject in the dropdown box below</p>
+          <form action="/set_subject">
+            <select name="subject" class="dropdown">
+               {% for s in subjects %}
+                   <option>{{s}}</option>
+               {% endfor %}          
+            </select>
+            <br>
+            <input type="submit" >
+            <p> Need to enter a new subject? Enter it here </p>
+            <input type="text" name="new_subject">
+            <input type="submit">
+            <p>{{alert}}</p>
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+
